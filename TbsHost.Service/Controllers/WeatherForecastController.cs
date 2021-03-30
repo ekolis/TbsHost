@@ -10,7 +10,6 @@ using TbsHost.Core;
 
 namespace TbsHost.Service.Controllers
 {
-	[Authorize]
 	[ApiController]
 	[Route("[controller]")]
 	public class WeatherForecastController : ControllerBase
@@ -33,8 +32,6 @@ namespace TbsHost.Service.Controllers
 		[HttpGet]
 		public IEnumerable<WeatherForecast> Get()
 		{
-			HttpContext.VerifyUserHasAnyAcceptedScope(scopeRequiredByApi);
-
 			var rng = new Random();
 			return Enumerable.Range(1, 5).Select(index => new WeatherForecast
 			{
