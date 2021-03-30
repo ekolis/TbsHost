@@ -1,9 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net5.0</TargetFramework>
-    <Nullable>enable</Nullable>
   </PropertyGroup>
+
+	<Import Project="../TbsHost.Assets/CommonProjectProperties.xml" />
+	
   <ItemGroup>
     <Folder Include="Models\" />
     <AvaloniaResource Include="Assets\**" />
@@ -13,5 +14,9 @@
     <PackageReference Include="Avalonia.Desktop" Version="0.10.0" />
     <PackageReference Include="Avalonia.Diagnostics" Version="0.10.0" />
     <PackageReference Include="Avalonia.ReactiveUI" Version="0.10.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TbsHost.Assets\TbsHost.Assets.csproj" />
+    <ProjectReference Include="..\TbsHost.Core\TbsHost.Core.csproj" />
   </ItemGroup>
 </Project>

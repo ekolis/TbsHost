@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TbsHost.Core", "TbsHost.Cor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TbsHost.UI.Avalonia", "TbsHost.UI.Avalonia\TbsHost.UI.Avalonia.csproj", "{A7EC70C8-BC4B-4189-9E70-8492EB347E86}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TbsHost.Assets", "TbsHost.Assets\TbsHost.Assets.csproj", "{A10F489A-81EB-4EA6-8FBF-C9391E7AEB65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A7EC70C8-BC4B-4189-9E70-8492EB347E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7EC70C8-BC4B-4189-9E70-8492EB347E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7EC70C8-BC4B-4189-9E70-8492EB347E86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A10F489A-81EB-4EA6-8FBF-C9391E7AEB65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A10F489A-81EB-4EA6-8FBF-C9391E7AEB65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A10F489A-81EB-4EA6-8FBF-C9391E7AEB65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A10F489A-81EB-4EA6-8FBF-C9391E7AEB65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

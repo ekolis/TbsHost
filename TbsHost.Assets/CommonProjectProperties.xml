@@ -1,0 +1,11 @@
+﻿<Project>
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<PackageProjectUrl>http://edkolis.com/tbshost</PackageProjectUrl>
+		<Product>TBShost</Product>
+		<Version>0.0.1</Version>
+		<Copyright>Copyright © 2021</Copyright>
+		<!-- <ApplicationIcon>TbsHost.ico</ApplicationIcon> TODO: create icon-->
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+</Project>

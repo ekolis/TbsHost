@@ -2,8 +2,4 @@
 
 	<Import Project="../TbsHost.Assets/CommonProjectProperties.xml" />
 
-	<ItemGroup>
-	  <ProjectReference Include="..\TbsHost.Assets\TbsHost.Assets.csproj" />
-	</ItemGroup>
-
 </Project>
