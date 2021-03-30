@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TbsHost.Service", "TbsHost\TbsHost.Service.csproj", "{7A71E7C4-F3AA-46BF-899E-07CBDBA39309}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TbsHost.Service", "TbsHost.Service\TbsHost.Service.csproj", "{9C868EDB-6B36-4061-ADE5-DE511599C4F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7A71E7C4-F3AA-46BF-899E-07CBDBA39309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7A71E7C4-F3AA-46BF-899E-07CBDBA39309}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7A71E7C4-F3AA-46BF-899E-07CBDBA39309}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7A71E7C4-F3AA-46BF-899E-07CBDBA39309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C868EDB-6B36-4061-ADE5-DE511599C4F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C868EDB-6B36-4061-ADE5-DE511599C4F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C868EDB-6B36-4061-ADE5-DE511599C4F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C868EDB-6B36-4061-ADE5-DE511599C4F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
