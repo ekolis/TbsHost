@@ -1,6 +1,6 @@
 using System;
 
-namespace TbsHost
+namespace TbsHost.Core
 {
 	public class WeatherForecast
 	{

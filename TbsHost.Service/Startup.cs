@@ -15,7 +15,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Identity.Web;
 using Microsoft.OpenApi.Models;
 
-namespace TbsHost
+namespace TbsHost.Service
 {
 	public class Startup
 	{
